@@ -48,7 +48,6 @@ public:
         }
         return *this;
     }
-
     ~Contact() = default;
     friend std::ostream& operator<<(std::ostream& os, const Contact& contact) {
         os << "Nume: " << contact.persoana << ", Numar de telefon: " << contact.numarTelefon;
